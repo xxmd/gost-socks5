@@ -3,6 +3,7 @@
 ### 安装命令
 
 ```shell
+rm -f init.sh
 yum install -y wget
 wget https://raw.githubusercontent.com/xxmd/gost-socks5/main/init.sh && bash init.sh
 ```
