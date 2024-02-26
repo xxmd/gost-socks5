@@ -4,6 +4,6 @@
 
 ```shell
 yum install -y wget
-wget -N https://raw.githubusercontent.com/xxmd/gost-socks5/main/init.sh && bash init.sh \n
+wget https://raw.githubusercontent.com/xxmd/gost-socks5/main/init.sh && bash init.sh
 ```
 
