@@ -13,7 +13,7 @@ yum install -y gzip
 
 echo "解压 gost 源码压缩包"
 gzip -d gost-linux-amd64-2.10.0.gz
-pid = `ps -ef | grep gost | grep -v 'grep' | awk '{print $2}'`
+pid=`ps -ef | grep gost | grep -v 'grep' | awk '{print $2}'`
 if [ -n "$pid" ]        
 then
 	echo "杀死 gost 原进程，进程 id 为 $pid"
